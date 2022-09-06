@@ -9,7 +9,7 @@
 
 # Pilares do POO
 
-- Herança
-- Encapsulamento
-- Polimorfirsmo
 - Abstração
+- Herança
+- Polimorfirsmo
+- Encapsulamento
