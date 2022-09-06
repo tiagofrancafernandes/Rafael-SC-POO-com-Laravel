@@ -6,13 +6,16 @@
 - interfaces (contratos)
 - classes abstratas
 - métodos abstratos
-- métodos finais (final)
 
 ### Recursos da orintação à Objetos com PHP
 - Traits
 - métodos estáticos
 - atributos estáticos
-- métodos auxiliares (`__CLASS__, __METTOD__, __FUNCTION__, self, static, ::class`)
+- métodos auxiliares (`__CLASS__, __METTOD__, __FUNCTION__,`)
+- métodos finais (final) - https://www.php.net/manual/pt_BR/language.oop5.final.php
+- self/static - https://www.php.net/manual/pt_BR/language.oop5.late-static-bindings.php
+- ::class
 - funções anônimas
 - arrow functions
 - callables
+- métodos mágicos (__call, toArray, ) - https://www.php.net/manual/pt_BR/language.oop5.magic.php
