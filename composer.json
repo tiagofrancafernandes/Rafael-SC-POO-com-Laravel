@@ -27,7 +27,10 @@
             "Abc\\": "Abc/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "resources/static_files/my_functions.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
