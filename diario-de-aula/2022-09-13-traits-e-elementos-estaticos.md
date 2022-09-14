@@ -1,4 +1,4 @@
-* [2022-09-21] - Traits e elementos estaticos
+* [2022-09-13] - Traits e elementos estaticos
 - Traits
 - métodos estáticos
 - atributos estáticos

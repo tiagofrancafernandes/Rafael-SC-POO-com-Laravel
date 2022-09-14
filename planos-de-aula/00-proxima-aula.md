@@ -8,8 +8,15 @@
 - ✅ Traits
 - ✅ métodos estáticos
 - ✅ atributos estáticos
-- métodos auxiliares (`__CLASS__, __METTOD__, __FUNCTION__,`)
+- CONSTANTES auxiliares:
+    - `__TRAIT__`
+    - `__CLASS__`
+    - `__METHOD__`
+    - `__FUNCTION__`
+    - `__NAMESPACE__`
 - self/static - https://www.php.net/manual/pt_BR/language.oop5.late-static-bindings.php
+    - ✅ Intro
+    - Exemplos
 - ::class
 - métodos mágicos (__call, toArray, ) - https://www.php.net/manual/pt_BR/language.oop5.magic.php
 - métodos finais (final) - https://www.php.net/manual/pt_BR/language.oop5.final.php

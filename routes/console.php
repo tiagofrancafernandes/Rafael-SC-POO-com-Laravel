@@ -1,19 +1,15 @@
 <?php
 
+use App\MyClasses\AuxiliatesDeClasses\Constantes;
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
-
-/*
-|--------------------------------------------------------------------------
-| Console Routes
-|--------------------------------------------------------------------------
-|
-| This file is where you may define all of your Closure based console
-| commands. Each Closure is bound to a command instance allowing a
-| simple approach to interacting with each command's IO methods.
-|
-*/
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote');
+
+Artisan::command('run', function () {
+    // echo (new Constantes())->getClass() . PHP_EOL;
+    echo (new Constantes())->getClassSelf() . PHP_EOL;
+    echo (new Constantes())->getClassStatic() . PHP_EOL;
+})->purpose('Run file');
